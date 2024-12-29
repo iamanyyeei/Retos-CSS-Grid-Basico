@@ -20,11 +20,11 @@
     display: grid;
     place-items: end;
 
-    background-color: greenyellow;
+    background-color:greenyellow;
 }
 
 span{
     width: 40%;
     height: 60%;
-    background-color: yellowgreen;
+    background-color: rgb(125, 231, 18);
 }
