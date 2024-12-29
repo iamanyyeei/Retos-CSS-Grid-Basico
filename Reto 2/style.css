@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    margin: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 200px);
+
+    place-content: center;
+    gap: 20px;
+
+    background-color: green;
+}
+
+.item{
+    display: grid;
+    place-items: end;
+
+    background-color: greenyellow;
+}
+
+span{
+    width: 40%;
+    height: 60%;
+    background-color: yellowgreen;
+}
